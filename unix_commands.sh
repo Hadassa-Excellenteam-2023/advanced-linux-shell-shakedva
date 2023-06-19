@@ -1,4 +1,4 @@
-echo Shaked >> a-1
+echo Shaked > a-1
 touch 1-b
 echo Shaked >> 1-b
 mkdir new
@@ -10,5 +10,5 @@ echo Shaked, cats >> new/newFile
 cd new
 ls
 cd .. 
-cd -
-rm -r
+cd ~
+rm -rf

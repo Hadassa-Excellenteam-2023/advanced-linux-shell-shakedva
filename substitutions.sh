@@ -7,5 +7,5 @@ cat l*
 grep -l "user" ????.conf
 rygel.conf
 echo The last modified file is $(ls -t | head -1)
-mkdir $(cut -d ":" -d 1 /etc/group)
-echo {}-: \(-\: *-:
+mkdir $(cut -d ":" -f1 /etc/group)
+echo {}-: \(-\; *-:

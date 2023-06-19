@@ -7,4 +7,4 @@ mkdir -p grandpa/father/son
 bc
 bc -q
 cal
-cal 2023
+cal $(date +'%Y')
